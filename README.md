@@ -11,9 +11,9 @@ let exampleString = "This is an example text.";
 
 | **Method Name**  | **Code Example**  | **Result**  | **Return Data Type**  | **Use Case**  |
 | ---------------- | ----------------- | ----------- | --------------------- | ------------- |
-| `concat()` | ```exampleString.concat(" Another sentence.");``` | `This is an example text. Another sentence.` | `string` | `Combine two or more strings together.`|
-| `split()` | ```exampleString.split(" ");``` | `["This", "is", "an", "example", "text."]` | `array` | `Split a string into an array of substrings based on a delimiter. Can be useful for processing multiple values from user input(like tags or keywords) from forms or search fields by splitting the string into an array.`|
-| `toString()` | ```let wordCount = 5; let num = wordCount.toString(); console.log(exampleString + " It has " + num + " words.");``` | `This is an example text. It has 5 words.` | `string` | `Converts a number to a string for concatenation or display purposes. Can be useful if you need to display a number and a string as part of a message or UI element.`|
+| concat() | ```exampleString.concat(" Another sentence.");``` | This is an example text. Another sentence. | string | Combine two or more strings together.|
+| split() | ```exampleString.split(" ");``` | ["This", "is", "an", "example", "text."] | array | Split a string into an array of substrings based on a delimiter. Can be useful for processing multiple values from user input(like tags or keywords) from forms or search fields by splitting the string into an array.|
+| toString() | ```let wordCount = 5; let num = wordCount.toString(); console.log(exampleString + " It has " + num + " words.");``` | This is an example text. It has 5 words. | string | Converts a number to a string for concatenation or display purposes. Can be useful if you need to display a number and a string as part of a message or UI element.|
 
 > **Note:** Due to Markdown's limitations with multiline code in table cells, some code examples have been simplified and written in a single line for better formatting.
 
